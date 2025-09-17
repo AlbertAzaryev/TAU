@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-    
+    .knknk.nklj
     public void OnMove(InputAction.CallbackContext context)
     
         moveInput = context.ReadValue<Vector2>();
