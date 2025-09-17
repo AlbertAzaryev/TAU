@@ -7,6 +7,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     private Rigidbody rb;
     private Vector2 moveInput;
+    public void onclick()
+    {
+        Debug.Log("Button Clicked!");
+    }
 
     private void Awake()
     {
