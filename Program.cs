@@ -16,7 +16,10 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
-
+ public void onPause() 
+    {
+        Debug.Log("Game Paused!");
+    }
     public void OnMove(InputAction.CallbackContext context)
     
         moveInput = context.ReadValue<Vector2>();
