@@ -16,7 +16,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
     }
- 
+    
+    public void FixedUpdate()
     
     public void OnMove(InputAction.CallbackContext context)
     
